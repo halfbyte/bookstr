@@ -1,0 +1,17 @@
+<h1>Editing author</h1>
+
+<%= error_messages_for :author %>
+
+<% form_for(:author, :url => author_path(@author), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', author_path(@author) %> |
+<%= link_to 'Back', authors_path %>
