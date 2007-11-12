@@ -15,7 +15,7 @@ development:
   adapter: mysql
   database: bookstr_development
   username: root
-  password:
+  password: root
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
 # Warning: The database defined as 'test' will be erased and
@@ -25,7 +25,7 @@ test:
   adapter: mysql
   database: bookstr_test
   username: root
-  password:
+  password: root
   socket: /opt/local/var/run/mysql5/mysqld.sock
 
 production:

@@ -2,10 +2,7 @@
 
 <%= error_messages_for :book %>
 
-
-
-
-<% form_for(:book, :url => books_path) do |f| %>
+<% form_for(:book, @book, :url => books_path, :html => {:id => 'bookform'}) do |f| %>
 
 <p>
   If you give us an EAN number (or an ISBN-Number, that is), we'll look up the rest of the details.
@@ -15,6 +12,34 @@
   <span id="message"></span>
 </p>
 
+  <script type="text/javascript" charset="utf-8">
+
+    function validateFormFields() {
+      $F('book_ean') != "" && $F('book_title') != ""
+    }
+
+    Event.observe($('bookform'), 'submit', function(event) {
+      console.log("formsubmit")
+      
+      if (!validateFormFields()) {
+        Event.stop(event);  
+      } else {
+        <%= remote_function :url => book_search_books_path, :before =>
+      }
+    });
+  
+  
+  
+    Event.observe($('book_ean'), 'keydown', function(event) {
+      var key = event.which || event.keyCode;
+      if(key == Event.KEY_RETURN) {
+        console.log("return in inputfield")
+        Event.stop(event);
+        return false;
+      }      
+      return true;
+    })
+  </script>
 
   <p>
     <b>Title</b><br />
