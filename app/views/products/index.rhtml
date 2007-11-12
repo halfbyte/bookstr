@@ -1,0 +1,26 @@
+<h1>Listing products</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Product code</th>
+    <th>Data type</th>
+    <th>Data</th>
+  </tr>
+  
+<% for product in @products %>
+  <tr>
+    <td><%=h product.title %></td>
+    <td><%=h product.product_code %></td>
+    <td><%=h product.data_type %></td>
+    <td><%=h product.data_id %></td>
+    <td><%= link_to 'Show', product_path(product) %></td>
+    <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    <td><%= link_to 'Destroy', product_path(product), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New product', new_product_path %>

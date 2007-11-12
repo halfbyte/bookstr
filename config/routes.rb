@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :products
+
   map.resources :authors
 
   map.resources :books, :collection => {'book_search' => :get}

@@ -1,0 +1,32 @@
+<h1>Editing product</h1>
+
+<%= error_messages_for :product %>
+
+<% form_for(:product, :url => product_path(@product), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Title</b><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <b>Product code</b><br />
+    <%= f.text_field :product_code %>
+  </p>
+
+  <p>
+    <b>Data type</b><br />
+    <%= f.text_field :data_type %>
+  </p>
+
+  <p>
+    <b>Data</b><br />
+    <%= f.text_field :data_id %>
+  </p>
+
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', product_path(@product) %> |
+<%= link_to 'Back', products_path %>

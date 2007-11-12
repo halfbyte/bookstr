@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HelpResponse>
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent"/>
+    </HTTPHeaders>
+    <RequestId>0TA80NA6BT7AEX6VK73N</RequestId>
+    <Arguments>
+      <Argument Name="AssociateTag" Value="limn-20"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="Operation" Value="Help"/>
+      <Argument Name="HelpType" Value="Operation"/>
+      <Argument Name="AWSAccessKeyId" Value="0BCRK8ZF0WS5EXBV6182"/>
+      <Argument Name="Version" Value="2007-02-22"/>
+      <Argument Name="About" Value="ItemSearch"/>
+    </Arguments>
+    <RequestProcessingTime>0.0691800117492676</RequestProcessingTime>
+  </OperationRequest>
+  <Information>
+    <Request>
+      <IsValid>True</IsValid>
+      <HelpRequest>
+        <About>ItemSearch</About>
+        <HelpType>Operation</HelpType>
+      </HelpRequest>
+    </Request>
+    <OperationInformation>
+      <Name>ItemSearch</Name>
+      <RequiredParameters>
+        <Parameter>SearchIndex</Parameter>
+      </RequiredParameters>
+      <AvailableParameters>
+        <Parameter>AWSAccessKeyId</Parameter>
+        <Parameter>Actor</Parameter>
+        <Parameter>AdditionalSearchParameters</Parameter>
+        <Parameter>Artist</Parameter>
+        <Parameter>AssociateTag</Parameter>
+        <Parameter>AudienceRating</Parameter>
+        <Parameter>Author</Parameter>
+        <Parameter>Availability</Parameter>
+        <Parameter>Brand</Parameter>
+        <Parameter>BrowseNode</Parameter>
+        <Parameter>City</Parameter>
+        <Parameter>Composer</Parameter>
+        <Parameter>Condition</Parameter>
+        <Parameter>Conductor</Parameter>
+        <Parameter>ContentType</Parameter>
+        <Parameter>Cuisine</Parameter>
+        <Parameter>DeliveryMethod</Parameter>
+        <Parameter>Director</Parameter>
+        <Parameter>DisableParentAsinSubstitution</Parameter>
+        <Parameter>ISPUPostalCode</Parameter>
+        <Parameter>IgnoreMapViolation</Parameter>
+        <Parameter>ItemPage</Parameter>
+        <Parameter>Keywords</Parameter>
+        <Parameter>Manufacturer</Parameter>
+        <Parameter>Marketplace</Parameter>
+        <Parameter>MarketplaceDomain</Parameter>
+        <Parameter>MaximumPrice</Parameter>
+        <Parameter>MerchantId</Parameter>
+        <Parameter>MinimumPrice</Parameter>
+        <Parameter>MusicLabel</Parameter>
+        <Parameter>Neighborhood</Parameter>
+        <Parameter>Orchestra</Parameter>
+        <Parameter>PostalCode</Parameter>
+        <Parameter>Power</Parameter>
+        <Parameter>Publisher</Parameter>
+        <Parameter>ReleaseDate</Parameter>
+        <Parameter>ReviewSort</Parameter>
+        <Parameter>Sort</Parameter>
+        <Parameter>State</Parameter>
+        <Parameter>Style</Parameter>
+        <Parameter>TagPage</Parameter>
+        <Parameter>TagSort</Parameter>
+        <Parameter>TagsPerPage</Parameter>
+        <Parameter>TextStream</Parameter>
+        <Parameter>Title</Parameter>
+        <Parameter>Validate</Parameter>
+        <Parameter>VariationPage</Parameter>
+        <Parameter>Version</Parameter>
+        <Parameter>XMLEscaping</Parameter>
+      </AvailableParameters>
+      <DefaultResponseGroups>
+        <ResponseGroup>Request</ResponseGroup>
+        <ResponseGroup>Small</ResponseGroup>
+      </DefaultResponseGroups>
+      <AvailableResponseGroups>
+        <ResponseGroup>Request</ResponseGroup>
+        <ResponseGroup>ItemIds</ResponseGroup>
+        <ResponseGroup>Small</ResponseGroup>
+        <ResponseGroup>Medium</ResponseGroup>
+        <ResponseGroup>Large</ResponseGroup>
+        <ResponseGroup>Offers</ResponseGroup>
+        <ResponseGroup>OfferFull</ResponseGroup>
+        <ResponseGroup>OfferSummary</ResponseGroup>
+        <ResponseGroup>OfferListings</ResponseGroup>
+        <ResponseGroup>PromotionSummary</ResponseGroup>
+        <ResponseGroup>PromotionDetails</ResponseGroup>
+        <ResponseGroup>VariationMinimum</ResponseGroup>
+        <ResponseGroup>VariationSummary</ResponseGroup>
+        <ResponseGroup>VariationMatrix</ResponseGroup>
+        <ResponseGroup>VariationOffers</ResponseGroup>
+        <ResponseGroup>Variations</ResponseGroup>
+        <ResponseGroup>TagsSummary</ResponseGroup>
+        <ResponseGroup>Tags</ResponseGroup>
+        <ResponseGroup>ItemAttributes</ResponseGroup>
+        <ResponseGroup>MerchantItemAttributes</ResponseGroup>
+        <ResponseGroup>Tracks</ResponseGroup>
+        <ResponseGroup>Accessories</ResponseGroup>
+        <ResponseGroup>EditorialReview</ResponseGroup>
+        <ResponseGroup>SalesRank</ResponseGroup>
+        <ResponseGroup>BrowseNodes</ResponseGroup>
+        <ResponseGroup>Images</ResponseGroup>
+        <ResponseGroup>Similarities</ResponseGroup>
+        <ResponseGroup>Subjects</ResponseGroup>
+        <ResponseGroup>Reviews</ResponseGroup>
+        <ResponseGroup>ListmaniaLists</ResponseGroup>
+        <ResponseGroup>PromotionalTag</ResponseGroup>
+        <ResponseGroup>SearchBins</ResponseGroup>
+        <ResponseGroup>AlternateVersions</ResponseGroup>
+        <ResponseGroup>Collections</ResponseGroup>
+      </AvailableResponseGroups>
+    </OperationInformation>
+  </Information>
+</HelpResponse>

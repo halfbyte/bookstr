@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse>
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent"/>
+    </HTTPHeaders>
+    <RequestId>06V0A2MQFR1K5SS7XPKH</RequestId>
+    <Arguments>
+      <Argument Name="SearchIndex" Value="Books"/>
+      <Argument Name="AssociateTag" Value="limn-20"/>
+      <Argument Name="ItemId" Value="9780751538717"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="ResponseGroup" Value="ItemAttributes,Request"/>
+      <Argument Name="Operation" Value="ItemLookup"/>
+      <Argument Name="IdType" Value="EAN"/>
+      <Argument Name="AWSAccessKeyId" Value="0BCRK8ZF0WS5EXBV6182"/>
+      <Argument Name="Version" Value="2007-02-22"/>
+    </Arguments>
+    <RequestProcessingTime>0.0291051864624023</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemLookupRequest>
+        <IdType>EAN</IdType>
+        <ItemId>9780751538717</ItemId>
+        <ResponseGroup>Request</ResponseGroup>
+        <ResponseGroup>ItemAttributes</ResponseGroup>
+        <SearchIndex>Books</SearchIndex>
+      </ItemLookupRequest>
+    </Request>
+    <Item>
+      <ASIN>075153871X</ASIN>
+      <DetailPageURL>http://www.amazon.co.uk/gp/redirect.html%3FASIN=075153871X%26tag=limn-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/075153871X%253FSubscriptionId=0BCRK8ZF0WS5EXBV6182</DetailPageURL>
+      <ItemAttributes>
+        <Author>Patricia Cornwell</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780751538717</EAN>
+        <Edition>New Ed</Edition>
+        <ISBN>075153871X</ISBN>
+        <Label>Sphere</Label>
+        <ListPrice>
+          <Amount>699</Amount>
+          <CurrencyCode>GBP</CurrencyCode>
+          <FormattedPrice>£6.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Sphere</Manufacturer>
+        <NumberOfPages>240</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">79</Height>
+          <Length Units="hundredths-inches">693</Length>
+          <Weight Units="hundredths-pounds">31</Weight>
+          <Width Units="hundredths-inches">425</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2007-03-08</PublicationDate>
+        <Publisher>Sphere</Publisher>
+        <Studio>Sphere</Studio>
+        <Title>At Risk</Title>
+      </ItemAttributes>
+    </Item>
+  </Items>
+</ItemLookupResponse>

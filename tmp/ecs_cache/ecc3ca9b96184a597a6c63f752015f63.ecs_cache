@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse>
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent"/>
+    </HTTPHeaders>
+    <RequestId>0MM84YE4ZRVZYV78KN0K</RequestId>
+    <Arguments>
+      <Argument Name="AssociateTag" Value="limn-20"/>
+      <Argument Name="ItemId" Value="3827324912"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="ResponseGroup" Value="Medium,Request"/>
+      <Argument Name="Operation" Value="ItemLookup"/>
+      <Argument Name="IdType" Value="ASIN"/>
+      <Argument Name="AWSAccessKeyId" Value="0BCRK8ZF0WS5EXBV6182"/>
+      <Argument Name="Version" Value="2007-02-22"/>
+    </Arguments>
+    <RequestProcessingTime>0.0395748615264893</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemLookupRequest>
+        <IdType>ASIN</IdType>
+        <ItemId>3827324912</ItemId>
+        <ResponseGroup>Request</ResponseGroup>
+        <ResponseGroup>Medium</ResponseGroup>
+      </ItemLookupRequest>
+    </Request>
+    <Item>
+      <ASIN>3827324912</ASIN>
+      <DetailPageURL>http://www.amazon.de/gp/redirect.html%3FASIN=3827324912%26tag=limn-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3827324912%253FSubscriptionId=0BCRK8ZF0WS5EXBV6182</DetailPageURL>
+      <SalesRank>163371</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/11KYp6yIOYL.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">54</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/21WiCa4tXvL.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">115</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51Jt%2BXdf4%2BL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">358</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/01Zan1uEmhL.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/11KYp6yIOYL.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">54</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/21WiCa4tXvL.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">115</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51Jt%2BXdf4%2BL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">358</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Ramon Wartala</Author>
+        <Author>Jan Krutisch</Author>
+        <Binding>Broschiert</Binding>
+        <Creator Role="Autor">Ramon Wartala</Creator>
+        <Creator Role="Autor">Jan Krutisch</Creator>
+        <EAN>9783827324917</EAN>
+        <ISBN>3827324912</ISBN>
+        <Label>Addison-Wesley, München</Label>
+        <Manufacturer>Addison-Wesley, München</Manufacturer>
+        <NumberOfPages>306</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">110</Height>
+          <Length Units="hundredths-inches">937</Length>
+          <Weight Units="hundredths-pounds">185</Weight>
+          <Width Units="hundredths-inches">661</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2007-04</PublicationDate>
+        <Publisher>Addison-Wesley, München</Publisher>
+        <Studio>Addison-Wesley, München</Studio>
+        <Title>Webanwendungen mit Ruby on Rails. Der Praxiseinstieg von Installation bis Testing und Erweiterung</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2995</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 29,95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1894</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 18,94</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>70</TotalNew>
+        <TotalUsed>5</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+  </Items>
+</ItemLookupResponse>

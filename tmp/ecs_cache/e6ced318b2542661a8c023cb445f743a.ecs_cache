@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse>
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent"/>
+    </HTTPHeaders>
+    <RequestId>1N7BTW3N9S1RHS74ZYC3</RequestId>
+    <Arguments>
+      <Argument Name="SearchIndex" Value="Books"/>
+      <Argument Name="AssociateTag" Value="limn-20"/>
+      <Argument Name="ItemId" Value="9780751538717"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="Operation" Value="ItemLookup"/>
+      <Argument Name="IdType" Value="EAN"/>
+      <Argument Name="AWSAccessKeyId" Value="0BCRK8ZF0WS5EXBV6182"/>
+      <Argument Name="Version" Value="2007-02-22"/>
+    </Arguments>
+    <RequestProcessingTime>0.0273890495300293</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemLookupRequest>
+        <IdType>EAN</IdType>
+        <ItemId>9780751538717</ItemId>
+        <SearchIndex>Books</SearchIndex>
+      </ItemLookupRequest>
+    </Request>
+    <Item>
+      <ASIN>075153871X</ASIN>
+      <DetailPageURL>http://www.amazon.co.uk/gp/redirect.html%3FASIN=075153871X%26tag=limn-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/075153871X%253FSubscriptionId=0BCRK8ZF0WS5EXBV6182</DetailPageURL>
+      <ItemAttributes>
+        <Author>Patricia Cornwell</Author>
+        <Manufacturer>Sphere</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <Title>At Risk</Title>
+      </ItemAttributes>
+    </Item>
+  </Items>
+</ItemLookupResponse>

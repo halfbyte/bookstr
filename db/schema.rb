@@ -2,16 +2,44 @@
 # migrations feature of ActiveRecord to incrementally modify your database, and
 # then regenerate this schema definition.
 
-ActiveRecord::Schema.define(:version => 2) do
+ActiveRecord::Schema.define(:version => 6) do
 
   create_table "authors", :force => true do |t|
     t.column "name", :string
+  end
+
+  create_table "book_datas", :force => true do |t|
+    t.column "pages",        :integer
+    t.column "published_at", :datetime
+    t.column "binding",      :string
   end
 
   create_table "books", :force => true do |t|
     t.column "ean",         :string
     t.column "title",       :string
     t.column "description", :text
+  end
+
+  create_table "creators", :force => true do |t|
+    t.column "name", :string
+    t.column "role", :string
+  end
+
+  create_table "creatorships", :force => true do |t|
+    t.column "creator_id", :integer
+    t.column "product_id", :integer
+  end
+
+  create_table "products", :force => true do |t|
+    t.column "title",                   :string
+    t.column "product_code",            :string
+    t.column "data_type",               :string
+    t.column "data_id",                 :integer
+    t.column "amazon_asin",             :string
+    t.column "amazon_detail_page_url",  :string
+    t.column "amazon_small_image_url",  :string
+    t.column "amazon_medium_image_url", :string
+    t.column "amazon_large_image_url",  :string
   end
 
 end
