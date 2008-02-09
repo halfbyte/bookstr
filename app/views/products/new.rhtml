@@ -4,10 +4,11 @@
 
 <% form_for(:product, :url => products_path) do |f| %>
 <%= render :partial => 'form', :locals => {:f => f} %>
-<% end %>
-
 <p>
   <%= submit_tag "Create" %>
 </p>
+
+<% end %>
+
 
 <%= link_to 'Back', products_path %>

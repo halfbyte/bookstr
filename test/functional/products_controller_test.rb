@@ -25,8 +25,10 @@ class ProductsControllerTest < Test::Unit::TestCase
   end
   
   def test_should_create_product
+    # TODO: Mock ECS
+    
     old_count = Product.count
-    post :create, :product => { }
+    post :create, :product => { :product_code => '978-3827324917' }
     assert_equal old_count+1, Product.count
     
     assert_redirected_to product_path(assigns(:product))

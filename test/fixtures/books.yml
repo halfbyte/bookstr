@@ -2,10 +2,10 @@
 one:
   id: 1
   title: MyString
-  isbn: MyString
+  ean: 23234 
   description: MyText
 two:
   id: 2
   title: MyString
-  isbn: MyString
+  ean: MyString
   description: MyText

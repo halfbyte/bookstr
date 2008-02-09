@@ -34,10 +34,10 @@ class ProductsController < ApplicationController
   # POST /products
   # POST /products.xml
   def create
-    @product = Product.new(params[:product])
-
+    @product = Product.find_or_create_from_amazon(params[:product][:product_code])
+    
     respond_to do |format|
-      if @product.save
+      if @product.valid?
         flash[:notice] = 'Product was successfully created.'
         format.html { redirect_to product_url(@product) }
         format.xml  { head :created, :location => product_url(@product) }
