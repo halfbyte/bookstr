@@ -1,0 +1,6 @@
+/config/database.yml
+/log/*.log
+
+/tmp/timefile
+/tmp/ecs_cache/*.ecs_cache
+/tmp/sessions/ruby_sess.*
